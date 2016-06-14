@@ -18,7 +18,7 @@ int calSum(int *array,int len)
     int sum = 0;
     for(int i=0;i<len;i++){
         sum += array[i];
-    }
+    } 
     return sum;
 }
 JNIEXPORT jstring JNICALL Java_com_jayce_jni_JniUtils_getCLanguageString
