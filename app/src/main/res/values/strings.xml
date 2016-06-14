@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Jni</string>
+    <string name="message">JniMessage</string>
+</resources>
