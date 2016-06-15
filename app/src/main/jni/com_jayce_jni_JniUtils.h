@@ -15,6 +15,9 @@ extern "C" {
 JNIEXPORT jstring JNICALL Java_com_jayce_jni_JniUtils_getCLanguageString
   (JNIEnv *, jobject);
 
+JNIEXPORT jstring JNICALL Java_com_jayce_jni_JniUtils_sayHello
+        (JNIEnv *, jobject);
+
 #ifdef __cplusplus
 }
 #endif

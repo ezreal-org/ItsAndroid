@@ -6,7 +6,7 @@ package com.jayce.jni;
 public class JniUtils {
 
     public native String getCLanguageString();
-
+    public native String sayHello();
     static {
         System.loadLibrary("JniUtils");
     }

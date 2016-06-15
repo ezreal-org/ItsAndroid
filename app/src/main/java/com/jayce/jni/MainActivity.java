@@ -13,6 +13,6 @@ public class MainActivity extends AppCompatActivity {
 
         JniUtils jniUtils = new JniUtils();
         TextView tv = (TextView)findViewById(R.id.jniMessage);
-        tv.setText(jniUtils.getCLanguageString());
+        tv.setText(jniUtils.sayHello());
     }
 }

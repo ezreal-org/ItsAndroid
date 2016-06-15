@@ -45,3 +45,8 @@ JNIEXPORT jstring JNICALL Java_com_jayce_jni_JniUtils_getCLanguageString
     str += sumBuff;
     return env->NewStringUTF(str.c_str());
 }
+
+JNIEXPORT jstring JNICALL Java_com_jayce_jni_JniUtils_sayHello
+        (JNIEnv *env, jobject obj){
+        return env->NewStringUTF("hello");
+}
